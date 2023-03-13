@@ -507,6 +507,7 @@ main(int argc, char **argv)
 					"MZC : Mazacoin : M\n"
 					"NEET : NEETCOIN : N\n"
 					"NEOS : Neoscoin : S\n"
+					"NEOXA : Neoxa : G\n"
 					"NLG : Gulden : G\n"
 					"NMC : Namecoin : M or N\n"
 					"NVC : Novacoin : 4\n"
@@ -1403,6 +1404,14 @@ main(int argc, char **argv)
 					"Generating Ravencoin Address\n");
 					addrtype = 60;
 					privtype = 128;
+					break;
+			}
+			else
+			if (strcmp(optarg, "RVN")== 0) {
+				fprintf(stderr,
+					"Generating Neoxa Address\n");
+					addrtype = 38;
+					privtype = 112;
 					break;
 			}
 			else
