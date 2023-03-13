@@ -1407,7 +1407,7 @@ main(int argc, char **argv)
 					break;
 			}
 			else
-			if (strcmp(optarg, "RVN")== 0) {
+			if (strcmp(optarg, "NEOXA")== 0) {
 				fprintf(stderr,
 					"Generating Neoxa Address\n");
 					addrtype = 38;
